@@ -51,4 +51,20 @@ public class Execution : MonoBehaviour
         Debug.Log("Late Update");
     }
 
+    private void OnDisable()
+    {
+        // OnDisable
+        // 게임 오브젝트가 비활성화되었을 때 호출되는 이벤트 함수입니다.
+
+        Debug.Log("OnDisable");
+    }
+
+    private void OnDestroy()
+    {
+        // OnDestroy
+        // 게임 오브젝트가 파괴되었을 때 호출되는 이벤트 함수입니다.
+
+        Debug.Log("OnDestroy");
+    }
+
 }
