@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Class 2th (Script)\Scripts\Execution.cs" />
+    <Compile Include="Assets\Class 3th (User Interface)\Scripts\MainMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Class 2th (Script)\Zombie\URP\URP Note.txt" />
