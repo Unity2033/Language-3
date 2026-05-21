@@ -457,6 +457,7 @@
 "Assets/Class 2th (Script)/Scripts/Execution.cs"
 "Assets/Class 3th (User Interface)/Scripts/MainMenu.cs"
 "Assets/Class 4th (Animation)/Scripts/Axe.cs"
+"Assets/Class 5th (Animator Controller)/Scripts/AnimatorManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+
