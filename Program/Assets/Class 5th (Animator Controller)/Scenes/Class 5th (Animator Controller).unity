@@ -534,7 +534,7 @@ GameObject:
   - component: {fileID: 1049996161}
   - component: {fileID: 1049996160}
   m_Layer: 5
-  m_Name: Button (Legacy) (1)
+  m_Name: Walk Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -603,7 +603,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1049996161}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1063035240}
+        m_TargetAssemblyTypeName: AnimatorManager, Assembly-CSharp
+        m_MethodName: Walk
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1049996161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -837,7 +849,7 @@ GameObject:
   - component: {fileID: 1401946171}
   - component: {fileID: 1401946170}
   m_Layer: 5
-  m_Name: Button (Legacy) (3)
+  m_Name: Die Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -906,7 +918,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1401946171}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1063035240}
+        m_TargetAssemblyTypeName: AnimatorManager, Assembly-CSharp
+        m_MethodName: Die
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1401946171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1037,7 +1061,7 @@ GameObject:
   - component: {fileID: 1509192754}
   - component: {fileID: 1509192753}
   m_Layer: 5
-  m_Name: Button (Legacy) (2)
+  m_Name: Attack Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1106,7 +1130,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1509192754}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1063035240}
+        m_TargetAssemblyTypeName: AnimatorManager, Assembly-CSharp
+        m_MethodName: Attack
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1509192754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1376,7 +1412,7 @@ GameObject:
   - component: {fileID: 2117949377}
   - component: {fileID: 2117949376}
   m_Layer: 5
-  m_Name: Button (Legacy)
+  m_Name: Idle Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1445,7 +1481,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2117949377}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1063035240}
+        m_TargetAssemblyTypeName: AnimatorManager, Assembly-CSharp
+        m_MethodName: Idle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2117949377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1593,6 +1641,6 @@ SceneRoots:
   - {fileID: 1401499760}
   - {fileID: 383027120}
   - {fileID: 1714601850}
-  - {fileID: 1063035241}
   - {fileID: 2119418103}
+  - {fileID: 1063035241}
   - {fileID: 1451726780}
