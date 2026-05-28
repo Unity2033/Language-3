@@ -460,6 +460,7 @@
 "Assets/Class 4th (Animation)/Scripts/Axe.cs"
 "Assets/Class 5th (Animator Controller)/Scripts/AnimatorManager.cs"
 "Assets/Class 6th (Input System)/Scripts/Character.cs"
+"Assets/Class 8th (Physics System)/Scripts/Controller.cs"
 -langversion:9.0
 /deterministic
 /optimize+

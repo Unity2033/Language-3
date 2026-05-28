@@ -61,6 +61,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.15f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Class 8th (Physics System)\Scripts\Controller.cs" />
     <Compile Include="Assets\Class 6th (Input System)\Scripts\Character.cs" />
     <Compile Include="Assets\Class 2th (Script)\Scripts\Execution.cs" />
     <Compile Include="Assets\Class 4th (Animation)\Scripts\Axe.cs" />
@@ -70,6 +71,7 @@
   <ItemGroup>
     <None Include="Assets\Class 6th (Input System)\Textures\Readme for Assigning.txt" />
     <None Include="Assets\Class 2th (Script)\Zombie\URP\URP Note.txt" />
+    <None Include="Assets\Class 8th (Physics System)\Golf Assets\Shaders\Glass.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
