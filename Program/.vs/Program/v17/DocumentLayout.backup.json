@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Program\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{62F3AAF5-E66B-9AA0-1FC4-8CF8BF707240}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\program\\assets\\class 8th (physics system)\\scripts\\sensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62F3AAF5-E66B-9AA0-1FC4-8CF8BF707240}|Assembly-CSharp.csproj|solutionrelative:assets\\class 8th (physics system)\\scripts\\sensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62F3AAF5-E66B-9AA0-1FC4-8CF8BF707240}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\program\\assets\\class 8th (physics system)\\scripts\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62F3AAF5-E66B-9AA0-1FC4-8CF8BF707240}|Assembly-CSharp.csproj|solutionrelative:assets\\class 8th (physics system)\\scripts\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{62F3AAF5-E66B-9AA0-1FC4-8CF8BF707240}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\program\\assets\\class 6th (input system)\\scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62F3AAF5-E66B-9AA0-1FC4-8CF8BF707240}|Assembly-CSharp.csproj|solutionrelative:assets\\class 6th (input system)\\scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +46,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Controller.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Program\\Assets\\Class 8th (Physics System)\\Scripts\\Controller.cs",
+              "RelativeDocumentMoniker": "Assets\\Class 8th (Physics System)\\Scripts\\Controller.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Program\\Assets\\Class 8th (Physics System)\\Scripts\\Controller.cs",
+              "RelativeToolTip": "Assets\\Class 8th (Physics System)\\Scripts\\Controller.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwCcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T11:29:05.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Sensor.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Program\\Assets\\Class 8th (Physics System)\\Scripts\\Sensor.cs",
+              "RelativeDocumentMoniker": "Assets\\Class 8th (Physics System)\\Scripts\\Sensor.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Program\\Assets\\Class 8th (Physics System)\\Scripts\\Sensor.cs",
+              "RelativeToolTip": "Assets\\Class 8th (Physics System)\\Scripts\\Sensor.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwAIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T11:20:40.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Character.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Program\\Assets\\Class 6th (Input System)\\Scripts\\Character.cs",
               "RelativeDocumentMoniker": "Assets\\Class 6th (Input System)\\Scripts\\Character.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Program\\Assets\\Class 6th (Input System)\\Scripts\\Character.cs",
               "RelativeToolTip": "Assets\\Class 6th (Input System)\\Scripts\\Character.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBTwAkAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-26T11:34:57.601Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AnimatorManager.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Program\\Assets\\Class 5th (Animator Controller)\\Scripts\\AnimatorManager.cs",
               "RelativeDocumentMoniker": "Assets\\Class 5th (Animator Controller)\\Scripts\\AnimatorManager.cs",
@@ -63,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Axe.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Program\\Assets\\Class 4th (Animation)\\Scripts\\Axe.cs",
               "RelativeDocumentMoniker": "Assets\\Class 4th (Animation)\\Scripts\\Axe.cs",
@@ -75,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Program\\Assets\\Class 3th (User Interface)\\Scripts\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Class 3th (User Interface)\\Scripts\\MainMenu.cs",
@@ -87,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Execution.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Program\\Assets\\Class 2th (Script)\\Scripts\\Execution.cs",
               "RelativeDocumentMoniker": "Assets\\Class 2th (Script)\\Scripts\\Execution.cs",

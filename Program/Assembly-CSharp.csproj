@@ -66,12 +66,12 @@
     <Compile Include="Assets\Class 2th (Script)\Scripts\Execution.cs" />
     <Compile Include="Assets\Class 4th (Animation)\Scripts\Axe.cs" />
     <Compile Include="Assets\Class 5th (Animator Controller)\Scripts\AnimatorManager.cs" />
+    <Compile Include="Assets\Class 8th (Physics System)\Scripts\Sensor.cs" />
     <Compile Include="Assets\Class 3th (User Interface)\Scripts\MainMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Class 6th (Input System)\Textures\Readme for Assigning.txt" />
     <None Include="Assets\Class 2th (Script)\Zombie\URP\URP Note.txt" />
-    <None Include="Assets\Class 8th (Physics System)\Golf Assets\Shaders\Glass.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

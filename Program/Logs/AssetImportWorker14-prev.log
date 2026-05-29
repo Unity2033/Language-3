@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.15f1 (c1aa84e375f6) revision 12692100'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 32478 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator" at "2026-05-28T12:28:12.3661944Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator" at "2026-05-27T12:13:11.9122005Z"
 System  architecture: x64
 Process architecture: x64
-Date: 2026-05-27T12:13:11Z
+Date: 2026-05-28T12:28:12Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.15f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Users/Administrator/Desktop/Game-Engine/Program
 -logFile
 Logs/AssetImportWorker14.log
 -srvPort
-51299
+50696
 -licensingIpc
 LicenseClient-Administrator
 -job-worker-count
@@ -67,12 +67,12 @@ C:/Users/Administrator/Desktop/Game-Engine/Program
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [15048]  Target information:
+Player connection [8740]  Target information:
 
-Player connection [15048]  * "[IP] 192.168.0.94 [Port] 0 [Flags] 2 [Guid] 3444020020 [EditorId] 3444020020 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MSMA3UP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8740]  * "[IP] 192.168.0.94 [Port] 0 [Flags] 2 [Guid] 2811096311 [EditorId] 2811096311 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MSMA3UP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [15048] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [15048] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8740] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8740] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 13
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -84,7 +84,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.76 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.93 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.15f1 (c1aa84e375f6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -100,29 +100,29 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001231 seconds.
+Registered in 0.001224 seconds.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Administrator"
 [Licensing::IpcConnector] LicenseClient-Administrator channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-6000.3.15" at "2026-05-27T12:13:12.8788166Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 18028, path: "C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-6000.3.15" at "2026-05-28T12:28:13.2381175Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 16204, path: "C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              94a35ef634a6478bb36214e6c7cb91db
-  Correlation Id:          a3a5440e71c9cb9600fd72d2647bc583
-  External correlation Id: 646847825381533745
+  Session Id:              fb8b9ac659be498da331bb8db7dbbef8
+  Correlation Id:          ad42b2fbb7b73a64a39450c4b227db39
+  External correlation Id: 4251067449722990910
   Machine Id:              SvejmJGsl/EFmq0OAjofjZYOfss=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Administrator-6000.3.15" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-6000.3.15-notifications" at "2026-05-27T12:13:12.8840894Z"
-[Licensing::Module] Licensing Background thread has ended after 0.97s
-- Loaded All Assemblies, in  0.503 seconds
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Administrator-6000.3.15" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-6000.3.15-notifications" at "2026-05-28T12:28:13.2442268Z"
+[Licensing::Module] Licensing Background thread has ended after 0.88s
+- Loaded All Assemblies, in  0.436 seconds
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -130,35 +130,35 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.426 seconds
-Domain Reload Profiling: 929ms
-	BeginReloadAssembly (157ms)
+- Finished resetting the current domain, in  0.430 seconds
+Domain Reload Profiling: 866ms
+	BeginReloadAssembly (145ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (60ms)
-	RebuildNativeTypeToScriptingClass (41ms)
-	initialDomainReloadingComplete (54ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (46ms)
 	LoadAllAssembliesAndSetupDomain (190ms)
-		LoadAssemblies (156ms)
+		LoadAssemblies (143ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (187ms)
 			TypeCache.Refresh (185ms)
-				TypeCache.ScanAssembly (168ms)
+				TypeCache.ScanAssembly (166ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (427ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (431ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (377ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (61ms)
+			InitializePlatformSupportModulesInManaged (52ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (87ms)
-			ProcessInitializeOnLoadAttributes (148ms)
-			ProcessInitializeOnLoadMethodAttributes (77ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (152ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -173,146 +173,658 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.883 seconds
-Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.891 seconds
+Refreshing native plugins compatible for Editor in 1.18 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 1.37 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.20 ms, found 4 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.768 seconds
-Domain Reload Profiling: 1650ms
-	BeginReloadAssembly (196ms)
+- Finished resetting the current domain, in  0.783 seconds
+Domain Reload Profiling: 1673ms
+	BeginReloadAssembly (206ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
+		CreateAndSetChildDomain (41ms)
 	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (587ms)
-		LoadAssemblies (407ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (592ms)
+		LoadAssemblies (398ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (290ms)
-			TypeCache.Refresh (192ms)
-				TypeCache.ScanAssembly (172ms)
-			BuildScriptInfoCaches (82ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (768ms)
+		AnalyzeDomain (305ms)
+			TypeCache.Refresh (201ms)
+				TypeCache.ScanAssembly (177ms)
+			BuildScriptInfoCaches (90ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (784ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (550ms)
+		SetupLoadedEditorAssemblies (564ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (134ms)
-			ProcessInitializeOnLoadAttributes (342ms)
-			ProcessInitializeOnLoadMethodAttributes (65ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (136ms)
+			ProcessInitializeOnLoadAttributes (353ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.40 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.09 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6440 unused Assets / (3.7 MB). Loaded Objects now: 7235.
-Memory consumption went from 154.7 MB to 151.0 MB.
-Total: 8.048800 ms (FindLiveObjects: 0.858800 ms CreateObjectMapping: 0.315900 ms MarkObjects: 4.855600 ms  DeleteObjects: 2.017600 ms)
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6441 unused Assets / (4.2 MB). Loaded Objects now: 7235.
+Memory consumption went from 153.4 MB to 149.2 MB.
+Total: 9.157200 ms (FindLiveObjects: 0.905600 ms CreateObjectMapping: 0.367400 ms MarkObjects: 5.593500 ms  DeleteObjects: 2.289000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12340.893181 seconds.
-  path: Assets/MainMenuUI/Sprites/UI_Atlas_Text.png
-  artifactKey: Guid(7c8d3dfbb1da2164ca88b4add7fbf399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainMenuUI/Sprites/UI_Atlas_Text.png using Guid(7c8d3dfbb1da2164ca88b4add7fbf399) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed7061282432e50304ea6026ada25059') in 0.1111267 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+  Time since last request: 13023.951161 seconds.
+  path: Assets/GolfAssets/Prefabs/InteractProps/FanBlade.prefab
+  artifactKey: Guid(aa2092fa8c47618428e24461b7b93328) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GolfAssets/Prefabs/InteractProps/FanBlade.prefab using Guid(aa2092fa8c47618428e24461b7b93328) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d7aadcedd1a94160a2f672e1ffb0216') in 0.1225283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.810182 seconds.
-  path: Assets/Main Menu/Sprites/UI_Atlas_ProgressBar 1.png
-  artifactKey: Guid(237db5424eb992b48b9b8d659575943a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Main Menu/Sprites/UI_Atlas_ProgressBar 1.png using Guid(237db5424eb992b48b9b8d659575943a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6dbd2cd0ec0cb3260250b6d80d9659d9') in 0.1444882 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+  Time since last request: 0.000026 seconds.
+  path: Assets/GolfAssets/Settings/Very High_PipelineAsset.asset
+  artifactKey: Guid(e23d6755c8fd37f498d8d3d5d2a2d7b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GolfAssets/Settings/Very High_PipelineAsset.asset using Guid(e23d6755c8fd37f498d8d3d5d2a2d7b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '88cb723680c33662dc519ebd2bb3da68') in 0.070649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Main Menu/UZ/UI_Atlas_MainMenu 2.png
-  artifactKey: Guid(c8f18a6edd1b77642a5f75b7aaf498c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Main Menu/UZ/UI_Atlas_MainMenu 2.png using Guid(c8f18a6edd1b77642a5f75b7aaf498c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'af85e4658854ee4496868588ef807719') in 0.0326805 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000018 seconds.
+  path: Assets/GolfAssets/Animations/Hammer.controller
+  artifactKey: Guid(686ac3ea1dfdd6e44a95661f95eadfc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GolfAssets/Animations/Hammer.controller using Guid(686ac3ea1dfdd6e44a95661f95eadfc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4f1b4040f473cdb045fe5d61407485cc') in 0.0088832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Main Menu/Sprites/UI_Atlas_ProgressBar 2.png
-  artifactKey: Guid(b0a46caf198ab6042bb48fb21bdf75cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Main Menu/Sprites/UI_Atlas_ProgressBar 2.png using Guid(b0a46caf198ab6042bb48fb21bdf75cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '58fb9ea727c002de2dc107be4401c8b0') in 0.0154386 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+  Time since last request: 0.000018 seconds.
+  path: Assets/GolfAssets/Prefabs/Level/SidesHazard.prefab
+  artifactKey: Guid(c515f3e5539b8884ea7f2e1a4d94a27c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GolfAssets/Prefabs/Level/SidesHazard.prefab using Guid(c515f3e5539b8884ea7f2e1a4d94a27c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2dd782ffa9c7fdfd44fc9a2a92e0a000') in 0.0156964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.720386 seconds.
-  path: Assets/Class 7th (Prefab System)/Main Menu/UZ/UI_Atlas_MainMenu 2.png
-  artifactKey: Guid(c8f18a6edd1b77642a5f75b7aaf498c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 7th (Prefab System)/Main Menu/UZ/UI_Atlas_MainMenu 2.png using Guid(c8f18a6edd1b77642a5f75b7aaf498c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16708e600984ec30b5a6288ea8b93cfd') in 0.0417716 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000015 seconds.
+  path: Assets/GolfAssets/Prefabs/Bg
+  artifactKey: Guid(6148eb3c5f8c22e418f4b2e928fc6157) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GolfAssets/Prefabs/Bg using Guid(6148eb3c5f8c22e418f4b2e928fc6157) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e47db37466714a0fb75007a71dca0fb') in 0.0072344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Class 7th (Prefab System)/Main Menu/UZ/UI_Atlas_Rewards.png
-  artifactKey: Guid(c65153043afa0034a985aa0c7c550528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 7th (Prefab System)/Main Menu/UZ/UI_Atlas_Rewards.png using Guid(c65153043afa0034a985aa0c7c550528) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecfb7843d2628d5707c7f7948664edf1') in 0.0361265 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.907853 seconds.
-  path: Assets/Class 7th (Prefab System)/Main Menu/UZ/UI_Atlas_Settings.png
-  artifactKey: Guid(465a2f33d6b3f374399b7534e4fc8462) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 7th (Prefab System)/Main Menu/UZ/UI_Atlas_Settings.png using Guid(465a2f33d6b3f374399b7534e4fc8462) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '32c8807c9282b4a3e033b5dd6c5a8d44') in 0.0356227 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+  Time since last request: 0.000015 seconds.
+  path: Assets/GolfAssets/Textures/Coins
+  artifactKey: Guid(203c62962bdc2d54eba445fe929995b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GolfAssets/Textures/Coins using Guid(203c62962bdc2d54eba445fe929995b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c275288205d751925e23043429b148a') in 0.0075604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/Class 7th (Prefab System)/Main Menu/Sprites/UI_Atlas_Stars 2.png
-  artifactKey: Guid(707910ade9de8bd4eb6559ed557298a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 7th (Prefab System)/Main Menu/Sprites/UI_Atlas_Stars 2.png using Guid(707910ade9de8bd4eb6559ed557298a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1f477575a250891f00065d7ab146d2d7') in 0.0200782 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+  path: Assets/GolfAssets/Models/Level/Part1/SidesHole.fbx
+  artifactKey: Guid(2c984a4608aed17438d4dfaf12587374) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GolfAssets/Models/Level/Part1/SidesHole.fbx using Guid(2c984a4608aed17438d4dfaf12587374) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8ac0398b37f86574c664802799da352b') in 0.0535637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Class 7th (Prefab System)/Main Menu/Sprites/UI_Atlas_Panels.png
-  artifactKey: Guid(4fd43d8d246f3594184833f5acd9f2bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 7th (Prefab System)/Main Menu/Sprites/UI_Atlas_Panels.png using Guid(4fd43d8d246f3594184833f5acd9f2bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '83746a572fcaa0f57a32242dbfc3b852') in 0.0207557 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+  Time since last request: 0.000019 seconds.
+  path: Assets/GolfAssets/Materials/Checker 2.mat
+  artifactKey: Guid(31c2f8f13deba7341983220e684e2880) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GolfAssets/Materials/Checker 2.mat using Guid(31c2f8f13deba7341983220e684e2880) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd285b56446c39711b3639f4742fa4e3a') in 0.0111469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.017779 seconds.
-  path: Assets/Class 7th (Prefab System)/Main Menu/Sprites/UI_Atlas_PageIndicators.png
-  artifactKey: Guid(1c96c765e91bb7f4db833e266c33ebbb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 7th (Prefab System)/Main Menu/Sprites/UI_Atlas_PageIndicators.png using Guid(1c96c765e91bb7f4db833e266c33ebbb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a0575fc4a2476dad3411ae4a2e5e7f8c') in 0.0172198 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+  Time since last request: 0.000017 seconds.
+  path: Assets/GolfAssets/Materials/ColorPicker 1.mat
+  artifactKey: Guid(ec3f0f7687a394c4f9bf9fc8605f1c05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GolfAssets/Materials/ColorPicker 1.mat using Guid(ec3f0f7687a394c4f9bf9fc8605f1c05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6c2862c661011117a52cfcf03335c224') in 0.008051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.296153 seconds.
+  path: Assets/Golf Assets/Models/Level/Part1
+  artifactKey: Guid(12ced2fc2e615d945a910136465606fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Golf Assets/Models/Level/Part1 using Guid(12ced2fc2e615d945a910136465606fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '23468049b772ee9848fc036b57e7210a') in 0.0090889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Golf Assets/Models/Coins/Coin1.fbx
+  artifactKey: Guid(83bfe2f18c634524986b073029b63807) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Golf Assets/Models/Coins/Coin1.fbx using Guid(83bfe2f18c634524986b073029b63807) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c27f16aea7b729209136a9f1cccfc162') in 0.0132402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Golf Assets/Prefabs/Pipes/PipeAnimation.prefab
+  artifactKey: Guid(fc0ff4040bc4333418fb51ffd12f6f46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Golf Assets/Prefabs/Pipes/PipeAnimation.prefab using Guid(fc0ff4040bc4333418fb51ffd12f6f46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8564b70818f854f21f87a483badfccb7') in 0.0084315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Golf Assets/Models/Level/Part1/Norails.fbx
+  artifactKey: Guid(37a0f1113e484584599b51db5dd7b42b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Golf Assets/Models/Level/Part1/Norails.fbx using Guid(37a0f1113e484584599b51db5dd7b42b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'af080ef1b6340d9bfb1f167c9451fbaf') in 0.0166616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Golf Assets/Prefabs/Pipes/PipeTurnEnter.prefab
+  artifactKey: Guid(7d69e6a120539514eb707f274270f90b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Golf Assets/Prefabs/Pipes/PipeTurnEnter.prefab using Guid(7d69e6a120539514eb707f274270f90b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'af3ce25694e8821d076c0114a930dcc0') in 0.0112788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Golf Assets/Materials
+  artifactKey: Guid(0ed53a5304b3905408abde20803b45ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Golf Assets/Materials using Guid(0ed53a5304b3905408abde20803b45ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '089e6f923df60663ca4d53404357d3f7') in 0.0072649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Golf Assets/Prefabs/Level
+  artifactKey: Guid(fd49684aa6e58f04d867b459147baa1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Golf Assets/Prefabs/Level using Guid(fd49684aa6e58f04d867b459147baa1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1b3d0490f7dffbab369ed78d2eeaef47') in 0.0075098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Golf Assets/Settings/Very Low_PipelineAsset_ForwardRenderer.asset
+  artifactKey: Guid(aebad1f347dfe6d44959df1f3c07dc76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Golf Assets/Settings/Very Low_PipelineAsset_ForwardRenderer.asset using Guid(aebad1f347dfe6d44959df1f3c07dc76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3d1d262b5b5ba9ef6b5e74c0ac504fcc') in 0.029343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Golf Assets/Textures/colorpicker.png
+  artifactKey: Guid(ca64eab41e97d7c4dac2dc911b77bee8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Golf Assets/Textures/colorpicker.png using Guid(ca64eab41e97d7c4dac2dc911b77bee8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4cfaa517a1571d812c2de7a371fa4573') in 0.0406529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Golf Assets/Prefabs/Level/Cornerhole.prefab
+  artifactKey: Guid(2416362289f898b4c893c64eb9b92d60) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Golf Assets/Prefabs/Level/Cornerhole.prefab using Guid(2416362289f898b4c893c64eb9b92d60) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '073f172eea61452998f7696135cdc35e') in 0.0115136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Golf Assets/Textures/Coins/1_DefaultMaterial_Normal.png
+  artifactKey: Guid(865cb1d07d305314480f9f17d85bf7fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Golf Assets/Textures/Coins/1_DefaultMaterial_Normal.png using Guid(865cb1d07d305314480f9f17d85bf7fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f79a5d3fa0c27103afea542c9851de8') in 0.0131916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Golf Assets/Settings
+  artifactKey: Guid(893f79f6f695ed04f96f2cb88019c3d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Golf Assets/Settings using Guid(893f79f6f695ed04f96f2cb88019c3d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3f5d445c49ae04b68bdbba9262f12783') in 0.0071571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000013 seconds.
-  path: Assets/Class 7th (Prefab System)/Main Menu/Sprites/UI_Atlas_MainMenu 3.png
-  artifactKey: Guid(2743df872115c754591234f5fbbdf9e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 7th (Prefab System)/Main Menu/Sprites/UI_Atlas_MainMenu 3.png using Guid(2743df872115c754591234f5fbbdf9e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e02145b810485c9b6d1041a45721629d') in 0.0301614 seconds
+  path: Assets/Golf Assets
+  artifactKey: Guid(0a2f9949cfe509a4ca35d8285bad819d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Golf Assets using Guid(0a2f9949cfe509a4ca35d8285bad819d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '372e120a1e982e3ecef3dcfe00767f95') in 0.0067712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Golf Assets/Models/Interactable/Sticky.fbx
+  artifactKey: Guid(6bf7a385e4751e548944746a8976176b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Golf Assets/Models/Interactable/Sticky.fbx using Guid(6bf7a385e4751e548944746a8976176b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1b7398119dff67d230bd0ab0c6d89ab3') in 0.0124724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Golf Assets/Prefabs/Level/180hole.prefab
+  artifactKey: Guid(09f5b179f5cc1c34db8eb9ee2e815eab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Golf Assets/Prefabs/Level/180hole.prefab using Guid(09f5b179f5cc1c34db8eb9ee2e815eab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9b386a3d6bb17da97f09c422a328ed71') in 0.0116742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Golf Assets/Prefabs/InteractProps/HammerAnimationHolder 1.prefab
+  artifactKey: Guid(32a00c8888dd65643898e989b0767388) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Golf Assets/Prefabs/InteractProps/HammerAnimationHolder 1.prefab using Guid(32a00c8888dd65643898e989b0767388) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7ad07bb8a9f66d367b4ce6b085980c40') in 0.0089366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Golf Assets/Textures/FrogPortals/1_DefaultMaterial_Normal.png
+  artifactKey: Guid(33ae0fe5b18b6fa41867bef8b93fd42c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Golf Assets/Textures/FrogPortals/1_DefaultMaterial_Normal.png using Guid(33ae0fe5b18b6fa41867bef8b93fd42c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd1808c7eb96231b6ba9bfdd0215d8bd9') in 0.0195086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Golf Assets/Textures/Cosmetics/wood/Sphere_DefaultMaterial_Normal.png
+  artifactKey: Guid(0437a2b8b39eda74cb75410a710c184d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Golf Assets/Textures/Cosmetics/wood/Sphere_DefaultMaterial_Normal.png using Guid(0437a2b8b39eda74cb75410a710c184d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9a5d32e928a91e0dc29836bafa2b89d3') in 0.0111381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Golf Assets/Models/Bumpers/Cross.fbx
+  artifactKey: Guid(7bf803269890eb945a7412a21fa33018) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Golf Assets/Models/Bumpers/Cross.fbx using Guid(7bf803269890eb945a7412a21fa33018) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8d93c0ef6172d9019ac61f58107f3456') in 0.0129938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Golf Assets/Models/Level/Part1/Sides.fbx
+  artifactKey: Guid(292b3fc593a87cc449a67bd537028b6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Golf Assets/Models/Level/Part1/Sides.fbx using Guid(292b3fc593a87cc449a67bd537028b6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c67ddc502c5bf828c9ef107980432bd4') in 0.016111 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Golf Assets/Models/Interactable/Bounce.fbx
+  artifactKey: Guid(32644e8694d6c024785078016a8dacfc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Golf Assets/Models/Interactable/Bounce.fbx using Guid(32644e8694d6c024785078016a8dacfc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '596a84275e7b32a5f5566d98f9f719eb') in 0.0118449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Golf Assets/Textures/Cosmetics/wood/Sphere_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(5380c5074bffe8346ac847ee2fa0a180) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Golf Assets/Textures/Cosmetics/wood/Sphere_DefaultMaterial_AlbedoTransparency.png using Guid(5380c5074bffe8346ac847ee2fa0a180) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dc8ff41d6819f4d5a8250b38f9cafde5') in 0.0107952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Golf Assets/Settings/Very High_PipelineAsset.asset
+  artifactKey: Guid(e23d6755c8fd37f498d8d3d5d2a2d7b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Golf Assets/Settings/Very High_PipelineAsset.asset using Guid(e23d6755c8fd37f498d8d3d5d2a2d7b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a52f787d0847fcb20cf41a273a5f90fb') in 0.010784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Golf Assets/Prefabs/Level/RampFull.prefab
+  artifactKey: Guid(ab45800b9b57d094dbdd692b4b499369) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Golf Assets/Prefabs/Level/RampFull.prefab using Guid(ab45800b9b57d094dbdd692b4b499369) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e2542945ebb6c29f225dd169536149f2') in 0.0116932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Golf Assets/Prefabs/Level/90.prefab
+  artifactKey: Guid(6444a16b561214f4b8f98c4bed00d617) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Golf Assets/Prefabs/Level/90.prefab using Guid(6444a16b561214f4b8f98c4bed00d617) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a9d16af590d8402ca8ddbe51ea146183') in 0.0112221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Golf Assets/Models/Level/Part1/Side.fbx
+  artifactKey: Guid(aff7066b9b8d1894db11fe79298eea80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Golf Assets/Models/Level/Part1/Side.fbx using Guid(aff7066b9b8d1894db11fe79298eea80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e15f6b3496e741134015322e790d436') in 0.0145364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.362876 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Materials/CloudColr.mat
+  artifactKey: Guid(019f4f1f790ac66469981300343e8ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Materials/CloudColr.mat using Guid(019f4f1f790ac66469981300343e8ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4c2d22d279c103fd3ce8fb273766212') in 0.8877024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.413052 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Textures/Checker/1_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(590ae095c0e512b41bc39c03eea93a1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Textures/Checker/1_DefaultMaterial_AlbedoTransparency.png using Guid(590ae095c0e512b41bc39c03eea93a1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3b4a7df7ee18856552f18ce01cc3c7b0') in 0.011468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Prefabs/Level/90hole.prefab
+  artifactKey: Guid(a1cda437413b1434ba7f0f45169c0a2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Prefabs/Level/90hole.prefab using Guid(a1cda437413b1434ba7f0f45169c0a2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0fdf007ff4771ad595ef8a40a24a1600') in 0.0137922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Models/Level/Part1/90hole.fbx
+  artifactKey: Guid(8c732a3a3b1464349b9489fae511d295) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Models/Level/Part1/90hole.fbx using Guid(8c732a3a3b1464349b9489fae511d295) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ebe5447d3f2628dd2e450050f30f072') in 0.0139091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Prefabs/InteractProps/HammerAnimationHolder 1.prefab
+  artifactKey: Guid(32a00c8888dd65643898e989b0767388) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Prefabs/InteractProps/HammerAnimationHolder 1.prefab using Guid(32a00c8888dd65643898e989b0767388) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bfbf8d5736891a2ab3c4c7365908e6a9') in 0.009121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Textures/FrogPortals/1_DefaultMaterial_Normal.png
+  artifactKey: Guid(33ae0fe5b18b6fa41867bef8b93fd42c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Textures/FrogPortals/1_DefaultMaterial_Normal.png using Guid(33ae0fe5b18b6fa41867bef8b93fd42c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '267fe81dfca25335a0252b7d4022d764') in 0.0165164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Prefabs/Level/180.prefab
+  artifactKey: Guid(ff9a952a3dff05042977c0b29fb7ad2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Prefabs/Level/180.prefab using Guid(ff9a952a3dff05042977c0b29fb7ad2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd2b75077872756d74d3bca42ec41c825') in 0.0105147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Materials/SkyBoxGradient.mat
+  artifactKey: Guid(ddcd311be36c3f141b05a69b710ebb12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Materials/SkyBoxGradient.mat using Guid(ddcd311be36c3f141b05a69b710ebb12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8927f365e67e1c33c4ea5a5ca973cbde') in 0.0099422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Models/Pipes/TurnEnter.fbx
+  artifactKey: Guid(a0ee39c7954ac7d4d823b97e69466afa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Models/Pipes/TurnEnter.fbx using Guid(a0ee39c7954ac7d4d823b97e69466afa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ae69a1eba4ed5bb6ce8c4b442223708') in 0.0146057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Prefabs/Pipes/PipeStraightEnter.prefab
+  artifactKey: Guid(b1e1a2b79f6f36d4a9e38d545cf8732d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Prefabs/Pipes/PipeStraightEnter.prefab using Guid(b1e1a2b79f6f36d4a9e38d545cf8732d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3fada9bbfe9181b0eb5103ca602dba08') in 0.0106071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Textures/Coins/1_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(96659a06aee7e4c48b34ad2c99c7897a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Textures/Coins/1_DefaultMaterial_MetallicSmoothness.png using Guid(96659a06aee7e4c48b34ad2c99c7897a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa3a7be8ae913d7710b0ff5b9e8d0882') in 0.0105344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Textures/WindMill/1_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(4f8656a55c164514da21b02d91a8300d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Textures/WindMill/1_DefaultMaterial_AlbedoTransparency.png using Guid(4f8656a55c164514da21b02d91a8300d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e46699a8cb29d787850799427f387524') in 0.0112813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Prefabs/Bumpers/Cross.prefab
+  artifactKey: Guid(732d3378ecf71f042b9d98bc913dc68b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Prefabs/Bumpers/Cross.prefab using Guid(732d3378ecf71f042b9d98bc913dc68b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1ec151755c1207364e6231f0963067f4') in 0.0109904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Shaders/SkyBoxGradient.shadergraph
+  artifactKey: Guid(f864536645b8cb8448489b28b1336faa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Shaders/SkyBoxGradient.shadergraph using Guid(f864536645b8cb8448489b28b1336faa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a18923621cfaca714754816463cc0a3f') in 0.0142361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Materials/TransitionBaseColor.mat
+  artifactKey: Guid(7b55066f1dacce34a9dae1e083c3ef2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Materials/TransitionBaseColor.mat using Guid(7b55066f1dacce34a9dae1e083c3ef2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f8635ae74238be54daca8ddba452b760') in 0.0084402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Textures/Cosmetics/basketball/Sphere_DefaultMaterial_Normal.png
+  artifactKey: Guid(f56ad06fa4a999f41b45cc56bb5bb42f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Textures/Cosmetics/basketball/Sphere_DefaultMaterial_Normal.png using Guid(f56ad06fa4a999f41b45cc56bb5bb42f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae6c004af9eeb253e1c9d4f29eee8659') in 0.0145819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Models/Level/Part1/Corner.fbx
+  artifactKey: Guid(2cca6b2ea3577e0489e5748e96ea497a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Models/Level/Part1/Corner.fbx using Guid(2cca6b2ea3577e0489e5748e96ea497a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5d11edd6952ae658bd4eebddaa0978db') in 0.0161991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Prefabs/Level/EdgeBit.prefab
+  artifactKey: Guid(59f5299e0015f584ba8da3c25dabad0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Prefabs/Level/EdgeBit.prefab using Guid(59f5299e0015f584ba8da3c25dabad0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '97aa67ccb41e7a9fc1a641e06bd2ef12') in 0.0118581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Textures/InteractProps/1_DefaultMaterial_Emission.png
+  artifactKey: Guid(edd8e8066430f014e98a8b334f7fdf38) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Textures/InteractProps/1_DefaultMaterial_Emission.png using Guid(edd8e8066430f014e98a8b334f7fdf38) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '48f24c9eda4985c2cc437e9b1ea90761') in 0.0117929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Materials/Cosmetics/Waves.mat
+  artifactKey: Guid(b5dc728b1127c8c439e97c8fa79ecf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Materials/Cosmetics/Waves.mat using Guid(b5dc728b1127c8c439e97c8fa79ecf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b4d2230c77636faac100d2d6cf77549') in 0.0127644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Textures/Bumpers/1_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(54c3979f6b73af244afccae2bf43a60b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Textures/Bumpers/1_DefaultMaterial_AlbedoTransparency.png using Guid(54c3979f6b73af244afccae2bf43a60b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '257bee79389ad66c312865a4d2ec414f') in 0.0141201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Prefabs/InteractProps/FanBase.prefab
+  artifactKey: Guid(da95e4ed54947dd428bbcc4cdf938523) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Prefabs/InteractProps/FanBase.prefab using Guid(da95e4ed54947dd428bbcc4cdf938523) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '71cdf58891188272dd6ae25877962343') in 0.0107955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.192834 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Models/Level
+  artifactKey: Guid(cccc47249b092474e87a90494a131460) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Models/Level using Guid(cccc47249b092474e87a90494a131460) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf4140a47403b3fb97e2af4e6be78977') in 0.0085147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Textures/Coins/1_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(e330f4a4377fc0945b4c84a4167d1b81) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Textures/Coins/1_DefaultMaterial_AlbedoTransparency.png using Guid(e330f4a4377fc0945b4c84a4167d1b81) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d715be01d4221ffe44f7e12db1623c5') in 0.0122362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Settings/High_PipelineAsset_ForwardRenderer.asset
+  artifactKey: Guid(d194ec32852058649ad004c40d345c42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Settings/High_PipelineAsset_ForwardRenderer.asset using Guid(d194ec32852058649ad004c40d345c42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '64b330d15cfb83519cae5451c7aa6e32') in 0.0113909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Textures/InteractProps/1_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(fc1ae6c1974c26e47afcb50e84b43e71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Textures/InteractProps/1_DefaultMaterial_AlbedoTransparency.png using Guid(fc1ae6c1974c26e47afcb50e84b43e71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '609a6f27c5acd6078148d2c0f1ecd67a') in 0.014908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Materials/Hammer,Flag.mat
+  artifactKey: Guid(01ce0542e74e80b47af4110ea16d1e73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Materials/Hammer,Flag.mat using Guid(01ce0542e74e80b47af4110ea16d1e73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a0cf180e221de05dc46b79807ca3ed48') in 0.0097091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Models/Level/Part1/UpHill.fbx
+  artifactKey: Guid(1eed6803448fd1d47864899fbee1df28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Models/Level/Part1/UpHill.fbx using Guid(1eed6803448fd1d47864899fbee1df28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5b7e7c5a189ecab09a7106a571bc9ef7') in 0.0184447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Models/Level/Part1/90.fbx
+  artifactKey: Guid(8e6b346142d6e004fb5de294d724d262) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Models/Level/Part1/90.fbx using Guid(8e6b346142d6e004fb5de294d724d262) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f4d785267833f1c30fbd91b19bfcffbd') in 0.0143057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Textures/FrogPortals
+  artifactKey: Guid(21871a81b88660e489f012322eb09cd6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Textures/FrogPortals using Guid(21871a81b88660e489f012322eb09cd6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c80b330c7eeee711f6e32ae02916b7c8') in 0.0069536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Prefabs/Bumpers/Line.prefab
+  artifactKey: Guid(c12ea050b83597a47a9dc334f863c691) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Prefabs/Bumpers/Line.prefab using Guid(c12ea050b83597a47a9dc334f863c691) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c0a7e829f4569b498e6442cba7512804') in 0.0108368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Shaders/BlackTransition.shadergraph
+  artifactKey: Guid(2cee75c01afb72340b4f0db0c2d32f21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Shaders/BlackTransition.shadergraph using Guid(2cee75c01afb72340b4f0db0c2d32f21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1b03c6a8cf50cff57497c3e401eee55a') in 0.1274458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets
+  artifactKey: Guid(0a2f9949cfe509a4ca35d8285bad819d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets using Guid(0a2f9949cfe509a4ca35d8285bad819d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'decfcaca763aa187a541c7fb11d6fd03') in 0.0080583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.723098 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Settings/Ultra_PipelineAsset.asset
+  artifactKey: Guid(1f3f6f826abe4314396f3d717bf9c0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Settings/Ultra_PipelineAsset.asset using Guid(1f3f6f826abe4314396f3d717bf9c0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '819ac37648a1706eebe280edd4990fad') in 0.0016093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.073974 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Prefabs/InteractProps/Hammer.prefab
+  artifactKey: Guid(5722c38e7ccb33e429cef840096c8e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Prefabs/InteractProps/Hammer.prefab using Guid(5722c38e7ccb33e429cef840096c8e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '895cddfdacf645a9e9608682a6bcad13') in 0.0287119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Prefabs/InteractProps/Sticky.prefab
+  artifactKey: Guid(c2cba89f0396e894d82cc38ae384b193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Prefabs/InteractProps/Sticky.prefab using Guid(c2cba89f0396e894d82cc38ae384b193) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7c2962d0c1ee2144da575f96b970469') in 4.4144454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.582588 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Prefabs/Level/Cornerhole.prefab
+  artifactKey: Guid(2416362289f898b4c893c64eb9b92d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Prefabs/Level/Cornerhole.prefab using Guid(2416362289f898b4c893c64eb9b92d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cdf69a85d704f57f4252e0a205530d6') in 0.0182658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Prefabs/Level/Turnhole.prefab
+  artifactKey: Guid(07c0ea4c363724b4c9be66e35eb2e9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Prefabs/Level/Turnhole.prefab using Guid(07c0ea4c363724b4c9be66e35eb2e9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc8ef33a247f239e9bd9d5e830654de4') in 0.0151466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Prefabs/Level/Sides.prefab
+  artifactKey: Guid(07965f88790b1a1459b5f42b85a2d6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Prefabs/Level/Sides.prefab using Guid(07965f88790b1a1459b5f42b85a2d6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff30068d177ea86e87a6ad4e88d922a1') in 0.0166489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.928839 seconds.
+  path: Assets/Class 8th (Physics System)/Golf Assets/Settings/Very Low_PipelineAsset.asset
+  artifactKey: Guid(3b8ab573f4230de4b9eeb5fec77e169c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Golf Assets/Settings/Very Low_PipelineAsset.asset using Guid(3b8ab573f4230de4b9eeb5fec77e169c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bbff4675002efcdd7eaa8ae035200969') in 0.0370192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.15f1 (c1aa84e375f6) revision 12692100'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 32478 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator" at "2026-05-28T11:08:34.4884275Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator" at "2026-05-29T11:06:41.8577503Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-05-28T11:08:34Z
+Date: 2026-05-29T11:06:41Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.15f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Users/Administrator/Desktop/Game-Engine/Program
 -logFile
 Logs/AssetImportWorker6.log
 -srvPort
-50696
+51058
 -licensingIpc
 LicenseClient-Administrator
 -job-worker-count
@@ -67,12 +67,12 @@ C:/Users/Administrator/Desktop/Game-Engine/Program
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [11020]  Target information:
+Player connection [16888]  Target information:
 
-Player connection [11020]  * "[IP] 192.168.0.94 [Port] 0 [Flags] 2 [Guid] 3434892017 [EditorId] 3434892017 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MSMA3UP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [16888]  * "[IP] 192.168.0.94 [Port] 0 [Flags] 2 [Guid] 2240776524 [EditorId] 2240776524 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MSMA3UP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [11020] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [11020] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16888] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16888] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 13
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -84,7 +84,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.10 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 6.93 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.15f1 (c1aa84e375f6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -100,29 +100,29 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56624
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56512
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001404 seconds.
+Registered in 0.001300 seconds.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Administrator"
 [Licensing::IpcConnector] LicenseClient-Administrator channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-6000.3.15" at "2026-05-28T11:08:35.41922Z"
-- Loaded All Assemblies, in  0.458 seconds
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 16204, path: "C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-6000.3.15" at "2026-05-29T11:06:42.7829037Z"
+- Loaded All Assemblies, in  0.456 seconds
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 1724, path: "C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              16dc5878aa3d4b7cac6df32e2116604e
-  Correlation Id:          ad42b2fbb7b73a64a39450c4b227db39
-  External correlation Id: 569027598972768840
+  Session Id:              7c001d85862b457488c20a6a0d02f20f
+  Correlation Id:          5729484430104b30bda6b4e8c63057c0
+  External correlation Id: 1556249156071815066
   Machine Id:              SvejmJGsl/EFmq0OAjofjZYOfss=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Administrator-6000.3.15" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-6000.3.15-notifications" at "2026-05-28T11:08:35.4252628Z"
-[Licensing::Module] Licensing Background thread has ended after 0.94s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Administrator-6000.3.15" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-6000.3.15-notifications" at "2026-05-29T11:06:42.7882657Z"
+[Licensing::Module] Licensing Background thread has ended after 0.93s
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -130,9 +130,9 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.427 seconds
+- Finished resetting the current domain, in  0.429 seconds
 Domain Reload Profiling: 885ms
-	BeginReloadAssembly (154ms)
+	BeginReloadAssembly (153ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -141,24 +141,24 @@ Domain Reload Profiling: 885ms
 	RebuildCommonClasses (39ms)
 	RebuildNativeTypeToScriptingClass (16ms)
 	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (201ms)
-		LoadAssemblies (153ms)
+	LoadAllAssembliesAndSetupDomain (200ms)
+		LoadAssemblies (151ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (198ms)
-			TypeCache.Refresh (196ms)
-				TypeCache.ScanAssembly (177ms)
+		AnalyzeDomain (197ms)
+			TypeCache.Refresh (195ms)
+				TypeCache.ScanAssembly (176ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (428ms)
+	FinalizeReload (430ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (368ms)
+		SetupLoadedEditorAssemblies (372ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (52ms)
+			InitializePlatformSupportModulesInManaged (51ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (90ms)
-			ProcessInitializeOnLoadAttributes (147ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (148ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -174,209 +174,177 @@ Begin MonoManager ReloadAssembly
   Type: Assigned
   Expiration: Unlimited
 - Loaded All Assemblies, in  0.851 seconds
-Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 1.17 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.19 ms, found 4 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.741 seconds
-Domain Reload Profiling: 1591ms
-	BeginReloadAssembly (213ms)
+- Finished resetting the current domain, in  0.750 seconds
+Domain Reload Profiling: 1600ms
+	BeginReloadAssembly (204ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (37ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (38ms)
 	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (548ms)
-		LoadAssemblies (369ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (551ms)
+		LoadAssemblies (385ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (285ms)
-			TypeCache.Refresh (189ms)
-				TypeCache.ScanAssembly (168ms)
+		AnalyzeDomain (281ms)
+			TypeCache.Refresh (187ms)
+				TypeCache.ScanAssembly (164ms)
 			BuildScriptInfoCaches (81ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (742ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (751ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (531ms)
+		SetupLoadedEditorAssemblies (536ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
+			SetLoadedEditorAssemblies (4ms)
 			BeforeProcessingInitializeOnLoad (121ms)
-			ProcessInitializeOnLoadAttributes (337ms)
-			ProcessInitializeOnLoadMethodAttributes (65ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (342ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.14 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6440 unused Assets / (3.9 MB). Loaded Objects now: 7235.
-Memory consumption went from 152.9 MB to 149.0 MB.
-Total: 10.325600 ms (FindLiveObjects: 1.246400 ms CreateObjectMapping: 0.424400 ms MarkObjects: 6.291600 ms  DeleteObjects: 2.362000 ms)
+Unloading 6441 unused Assets / (4.0 MB). Loaded Objects now: 7236.
+Memory consumption went from 154.9 MB to 150.9 MB.
+Total: 9.897100 ms (FindLiveObjects: 1.027600 ms CreateObjectMapping: 0.418600 ms MarkObjects: 5.749100 ms  DeleteObjects: 2.700500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8249.885940 seconds.
-  path: Assets/Stylized_Pirate_Ship/StylShip_Unity.prefab
-  artifactKey: Guid(a1dcd447bfbb3bc45821f8b436c031d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized_Pirate_Ship/StylShip_Unity.prefab using Guid(a1dcd447bfbb3bc45821f8b436c031d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db8d62b75b58b5e64a6151311b759f84') in 0.6213464 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 288
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.189267 seconds.
-  path: Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Elements_MetallicSmoothness.png
-  artifactKey: Guid(61309830952249c4cbcaaf1094ea0904) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Elements_MetallicSmoothness.png using Guid(61309830952249c4cbcaaf1094ea0904) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b806c88f5bb3a34161d242f7c3f01732') in 0.1219723 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Masts_MetallicSmoothness.png
-  artifactKey: Guid(f1470148ee0919d4fba6794a79dbc5bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Masts_MetallicSmoothness.png using Guid(f1470148ee0919d4fba6794a79dbc5bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b098ba5036da4be966041e91001a348e') in 0.0162533 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Stylized Pirate Ship/StylShip_Unity.prefab
-  artifactKey: Guid(a1dcd447bfbb3bc45821f8b436c031d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Stylized Pirate Ship/StylShip_Unity.prefab using Guid(a1dcd447bfbb3bc45821f8b436c031d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8febfbbe4b006b4e64bc76dee18c4282') in 0.0256489 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 262
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Elements_AlbedoTransparency.png
-  artifactKey: Guid(0da8d2e48aaea5743abc80c7afade36a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Elements_AlbedoTransparency.png using Guid(0da8d2e48aaea5743abc80c7afade36a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '34968af9c24f03abd1352dacd55c3765') in 0.016747 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Stylized Pirate Ship/StylShip_MatTextures
-  artifactKey: Guid(ddda3fc5d9c57ad43b0064fd3a39267b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Pirate Ship/StylShip_MatTextures using Guid(ddda3fc5d9c57ad43b0064fd3a39267b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f985923cfcb5ee18bfd14fb5a61b61a') in 0.0006397 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_SailsRope_MetallicSmoothness.png
-  artifactKey: Guid(0851eb5506348de47a41756f2f4b3a3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_SailsRope_MetallicSmoothness.png using Guid(0851eb5506348de47a41756f2f4b3a3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dd157b368aaf49a69130e6d98770cf04') in 0.014914 seconds
+  Time since last request: 8147.468956 seconds.
+  path: Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Scenes
+  artifactKey: Guid(ebac0f325aeb6884e96c89d60adf46ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Scenes using Guid(ebac0f325aeb6884e96c89d60adf46ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b379e8ac2fd203095eb7f96fd9d8381b') in 0.0509097 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Masts_MetallicSmoothness.png
-  artifactKey: Guid(f1470148ee0919d4fba6794a79dbc5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Masts_MetallicSmoothness.png using Guid(f1470148ee0919d4fba6794a79dbc5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e0f84bf311b2636c74e0595e4b3c5cd') in 0.0192467 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  path: Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Meshes/Materials/DARK_GREY_mat.mat
+  artifactKey: Guid(5a39bd3dffc95dc4ca4759d5823e6622) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Meshes/Materials/DARK_GREY_mat.mat using Guid(5a39bd3dffc95dc4ca4759d5823e6622) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3339c1fc86af58010802aa334ecb68e9') in 0.065051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_ShipHull_MetallicSmoothness.png
-  artifactKey: Guid(dc533af5d6644d442b7454aa70631a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_ShipHull_MetallicSmoothness.png using Guid(dc533af5d6644d442b7454aa70631a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2ef1b219fc9c747bb4ce0802220e7bc') in 0.015803 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000017 seconds.
+  path: Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Prefabs/FloorInteriorB1.prefab
+  artifactKey: Guid(6ce6e58075082ee40aa64b4c59ccaf9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Prefabs/FloorInteriorB1.prefab using Guid(6ce6e58075082ee40aa64b4c59ccaf9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '29ac28679dfcb3844d58213669923e97') in 0.0519684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Meshes/Materials/GREY_mat.mat
+  artifactKey: Guid(ded3ee337069fe34aad399430dc3856c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Meshes/Materials/GREY_mat.mat using Guid(ded3ee337069fe34aad399430dc3856c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f5d1d27d60054a57160d6cb0e01f5c5d') in 0.0083057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Meshes/WallLargeB_mesh.fbx
+  artifactKey: Guid(69850715f8d465b45a1e9698cd699191) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Meshes/WallLargeB_mesh.fbx using Guid(69850715f8d465b45a1e9698cd699191) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9577000ff4c912fa6148fa28da93a16b') in 0.0362612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Meshes/FloorInteriorB1_mesh.fbx
+  artifactKey: Guid(5b63062f0f9550241a5fee43fa3bebac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Meshes/FloorInteriorB1_mesh.fbx using Guid(5b63062f0f9550241a5fee43fa3bebac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '70aed7ee2a0cf44d03a0c954d6c28d32') in 0.0152102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.902582 seconds.
+  path: Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Prefabs/FloorInteriorA4.prefab
+  artifactKey: Guid(e274c7bd48f126345961fb198e1c16db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Prefabs/FloorInteriorA4.prefab using Guid(e274c7bd48f126345961fb198e1c16db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f93a9378657d440be5b4d2d64d20ead8') in 0.4718943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.191815 seconds.
+  path: Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Meshes/FloorInteriorA4_mesh.fbx
+  artifactKey: Guid(cd5013dcdd394644b9c57e0e573898dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Meshes/FloorInteriorA4_mesh.fbx using Guid(cd5013dcdd394644b9c57e0e573898dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b063df6a42e824656f2b3b01a874a86') in 0.0520137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Meshes/PanelB_mesh.fbx
+  artifactKey: Guid(8c9b5f068404c544a820bdbeaebf5a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Meshes/PanelB_mesh.fbx using Guid(8c9b5f068404c544a820bdbeaebf5a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d326eb45a1e537f9cf7496ca29d6621') in 0.0143807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000033 seconds.
-  path: Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Elements_AmbientOcclusion.png
-  artifactKey: Guid(53f0f326fcf890d4fbfade62f65f590d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Elements_AmbientOcclusion.png using Guid(53f0f326fcf890d4fbfade62f65f590d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4bf902f880b8a23c7bde081af884491') in 0.0129829 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  path: Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Meshes/WallLargeB_mesh.fbx
+  artifactKey: Guid(69850715f8d465b45a1e9698cd699191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Meshes/WallLargeB_mesh.fbx using Guid(69850715f8d465b45a1e9698cd699191) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c19004597d47d4425911dbc330c6958') in 0.0131796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Masts_Mat.mat
-  artifactKey: Guid(243fa82a1adab5240902fdea0c1ab4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Masts_Mat.mat using Guid(243fa82a1adab5240902fdea0c1ab4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ba25c509c1f8e7d8a02e5446515abd7') in 0.0422514 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Masts_NormalOpenGL.png
-  artifactKey: Guid(7e7ed80de04681047906e23ab6f9920f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Masts_NormalOpenGL.png using Guid(7e7ed80de04681047906e23ab6f9920f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87ecbfb67584906f0e43e4a8c8bd3077') in 0.0226333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.685070 seconds.
-  path: Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_SailsRope_Mat.mat
-  artifactKey: Guid(286a021d404ed204f8d67a6317bc289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Pirate Ship/StylShip_MatTextures/StylShip_SailsRope_Mat.mat using Guid(286a021d404ed204f8d67a6317bc289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddcf1315b0d9a85f6585397df2f981a4') in 8.2977292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.220184 seconds.
-  path: Assets/Stylized Pirate Ship/StylShip_Unity.prefab
-  artifactKey: Guid(a1dcd447bfbb3bc45821f8b436c031d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Pirate Ship/StylShip_Unity.prefab using Guid(a1dcd447bfbb3bc45821f8b436c031d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72a68676e5fd0b7b72dbd3ffe7ee0618') in 4.2330648 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 288
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.024849 seconds.
-  path: Assets/Class 7th (Prefab System)/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Elements_MetallicSmoothness.png
-  artifactKey: Guid(61309830952249c4cbcaaf1094ea0904) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 7th (Prefab System)/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Elements_MetallicSmoothness.png using Guid(61309830952249c4cbcaaf1094ea0904) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a148240b3dde1878e328488ff16ed173') in 0.0170813 seconds
+  Time since last request: 2.311273 seconds.
+  path: Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Meshes/Materials/GREY_mat.mat
+  artifactKey: Guid(ded3ee337069fe34aad399430dc3856c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Meshes/Materials/GREY_mat.mat using Guid(ded3ee337069fe34aad399430dc3856c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83ab19f49f0fbcc1c64f70606608f7e4') in 0.0285092 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Class 7th (Prefab System)/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Elements_Mat.mat
-  artifactKey: Guid(b4becca3bb6f34146901e088632de774) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 7th (Prefab System)/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Elements_Mat.mat using Guid(b4becca3bb6f34146901e088632de774) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4337e905f161ade9c3cfb22bed320e1c') in 0.0319555 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Class 7th (Prefab System)/Stylized Pirate Ship/StylShip_Box.prefab
-  artifactKey: Guid(c05c34cf7415e0c4e98b01a365a21256) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 7th (Prefab System)/Stylized Pirate Ship/StylShip_Box.prefab using Guid(c05c34cf7415e0c4e98b01a365a21256) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e3f06fa5e7223f6c77f33ff26b0c8cfc') in 0.0285582 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Class 7th (Prefab System)/Stylized Pirate Ship/StylShip_Cannon.prefab
-  artifactKey: Guid(78a33966cc5639b4387c905a99a39d65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 7th (Prefab System)/Stylized Pirate Ship/StylShip_Cannon.prefab using Guid(78a33966cc5639b4387c905a99a39d65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bb40989ab2d4be3fd390ccf3558c1744') in 0.0108048 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Class 7th (Prefab System)/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Masts_AlbedoTransparency.png
-  artifactKey: Guid(c5901344ad7bfce4898186d513501d39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 7th (Prefab System)/Stylized Pirate Ship/StylShip_MatTextures/StylShip_Masts_AlbedoTransparency.png using Guid(c5901344ad7bfce4898186d513501d39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8c5ab5bff6375c427d31b2b70371bca8') in 0.013109 seconds
+  Time since last request: 8.749913 seconds.
+  path: Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Meshes/Materials/BLUE_LIGHT_mat.mat
+  artifactKey: Guid(a28bc46fe61ec46459b3c7963146ff11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Meshes/Materials/BLUE_LIGHT_mat.mat using Guid(a28bc46fe61ec46459b3c7963146ff11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ab8e691988c98c44f0d76c526547f3f1') in 0.0167168 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.130943 seconds.
+  path: Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Meshes/Materials/BLACK_mat.mat
+  artifactKey: Guid(32c524f702b0d224f8d55e4a82600761) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Meshes/Materials/BLACK_mat.mat using Guid(32c524f702b0d224f8d55e4a82600761) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e65a67a3d0ed6e8c009896fe0fd51db5') in 0.0084494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Meshes/Materials/DARK_GREY_mat.mat
+  artifactKey: Guid(5a39bd3dffc95dc4ca4759d5823e6622) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Meshes/Materials/DARK_GREY_mat.mat using Guid(5a39bd3dffc95dc4ca4759d5823e6622) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '104ed69cff60a1865972273ea7a6dc62') in 0.0082484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.802148 seconds.
+  path: Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Prefabs/CeilingLampA.prefab
+  artifactKey: Guid(52ad5c9c020a19c4bb74de3a99cf0974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 8th (Physics System)/Free LowPoly SciFi Pack/Prefabs/CeilingLampA.prefab using Guid(52ad5c9c020a19c4bb74de3a99cf0974) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '357579ed6aaca6eb37bed1dcc80d355c') in 2.3924393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
