@@ -261,7 +261,7 @@ GameObject:
   - component: {fileID: 141111541}
   m_Layer: 0
   m_Name: Other Sphere
-  m_TagString: Untagged
+  m_TagString: Barrier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -353,7 +353,7 @@ Transform:
   m_GameObject: {fileID: 141111536}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10, y: 2.5, z: -2.5}
+  m_LocalPosition: {x: -5.75, y: 2.5, z: -12.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -747,9 +747,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d1827110b713624ab0824eb4284c727, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Controller
-  speed: 10
+  force: 10
   direction: {x: 0, y: 0, z: 0}
   rigidbody: {fileID: 0}
+  forceMode: 0
 --- !u!1 &2126237271
 GameObject:
   m_ObjectHideFlags: 0

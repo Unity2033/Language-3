@@ -4,7 +4,12 @@ public class Sensor : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.transform.gameObject.name);
+        Controller controller = other.GetComponent<Controller>();
+
+        if (controller != null)
+        {
+             controller.Soar();
+        }
     }
 
     private void OnTriggerStay(Collider other)
@@ -14,6 +19,6 @@ public class Sensor : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        Debug.Log("OnTriggerStay");
+       
     }
 }
