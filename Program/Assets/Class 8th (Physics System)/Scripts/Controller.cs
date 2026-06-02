@@ -70,7 +70,10 @@ public class Controller : MonoBehaviour
 
     private void OnCollisionStay(Collision collision)
     {
-        Debug.Log("OnCollisionStay");
+        if (collision.gameObject.CompareTag("Barrier"))
+        {
+            Debug.Log("OnCollisionStay");
+        }
     }
 
     private void OnCollisionExit(Collision collision)
