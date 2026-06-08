@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Inspector
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -220,13 +220,13 @@ MonoBehaviour:
     height: 638
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 15}
   - {fileID: 16}
   - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 2
+  m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -973,9 +973,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 30.805357, y: 3.3692951, z: 6.9737854}
+    m_Target: {x: 32.651154, y: 1.8494484, z: 0.8339882}
     speed: 2
-    m_Value: {x: 30.805357, y: 3.3692951, z: 6.9737854}
+    m_Value: {x: 32.651154, y: 1.8494484, z: 0.8339882}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1021,13 +1021,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.044478085, y: -0.43762907, z: 0.021675456, w: 0.89780056}
+    m_Target: {x: 0.23385921, y: -0.32130578, z: 0.08221014, w: 0.9139624}
     speed: 2
-    m_Value: {x: 0.044477794, y: -0.4376262, z: 0.021675315, w: 0.89779466}
+    m_Value: {x: 0.22092928, y: -0.34417284, z: 0.08367392, w: 0.9086991}
   m_Size:
-    m_Target: 5.561462
+    m_Target: 1.9179507
     speed: 2
-    m_Value: 5.561462
+    m_Value: 1.9179507
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1106,17 +1106,10 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -29866
-      - m_Data: -29528
-      - m_Data: -28132
-      - m_Data: -27528
-      - m_Data: -27200
-      - m_Data: -13134
-      - m_Data: -13120
-      - m_Data: -3606
-      - m_Data: -2804
-      - m_Data: -2448
-      - m_Data: -1380
+      - m_Data: -1442
+      - m_Data: -1434
+      - m_Data: -1336
+      - m_Data: 46844
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1419,7 +1412,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Class 11th (Light)/Cosmic Retro Laboratory
+    - Assets/Class 11th (Light)/Scenes/Class 11th (Light)
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1429,40 +1422,39 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Class 11th (Light)/Cosmic Retro Laboratory/Scenes
+  - Assets/Class 11th (Light)/Scenes/Class 11th (Light)
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Administrator\Desktop\Game-Engine\Program
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 147}
+    scrollPos: {x: 0, y: 51}
     m_SelectedIDs:
-    - m_Data: 56142
+    - m_Data: 47752
     m_LastClickedID:
-      m_Data: 56142
+      m_Data: 47752
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 48066
-    - m_Data: 48068
-    - m_Data: 48070
-    - m_Data: 48072
-    - m_Data: 48074
-    - m_Data: 48076
-    - m_Data: 48078
-    - m_Data: 48080
-    - m_Data: 48082
-    - m_Data: 48084
-    - m_Data: 48086
-    - m_Data: 48088
-    - m_Data: 48090
-    - m_Data: 48092
-    - m_Data: 48096
-    - m_Data: 48098
-    - m_Data: 48422
-    - m_Data: 48426
-    - m_Data: 55750
-    - m_Data: 56142
+    - m_Data: 47312
+    - m_Data: 47314
+    - m_Data: 47316
+    - m_Data: 47318
+    - m_Data: 47320
+    - m_Data: 47322
+    - m_Data: 47324
+    - m_Data: 47326
+    - m_Data: 47328
+    - m_Data: 47330
+    - m_Data: 47332
+    - m_Data: 47334
+    - m_Data: 47336
+    - m_Data: 47338
+    - m_Data: 47340
+    - m_Data: 47342
+    - m_Data: 47344
+    - m_Data: 47346
+    - m_Data: 47656
     - m_Data: 1000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1496,23 +1488,24 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 48066
-    - m_Data: 48068
-    - m_Data: 48070
-    - m_Data: 48072
-    - m_Data: 48074
-    - m_Data: 48076
-    - m_Data: 48078
-    - m_Data: 48080
-    - m_Data: 48082
-    - m_Data: 48084
-    - m_Data: 48086
-    - m_Data: 48088
-    - m_Data: 48090
-    - m_Data: 48092
-    - m_Data: 48094
-    - m_Data: 48096
-    - m_Data: 48098
+    - m_Data: 47312
+    - m_Data: 47314
+    - m_Data: 47316
+    - m_Data: 47318
+    - m_Data: 47320
+    - m_Data: 47322
+    - m_Data: 47324
+    - m_Data: 47326
+    - m_Data: 47328
+    - m_Data: 47330
+    - m_Data: 47332
+    - m_Data: 47334
+    - m_Data: 47336
+    - m_Data: 47338
+    - m_Data: 47340
+    - m_Data: 47342
+    - m_Data: 47344
+    - m_Data: 47346
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1541,7 +1534,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: []
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_Data: 48830
     - m_Data: 47476
@@ -1564,7 +1557,7 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0

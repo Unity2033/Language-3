@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator" at "2026-06-05T11:02:43.6464721Z"
 Built from '6000.3/staging' branch; Version is '6000.3.15f1 (c1aa84e375f6) revision 12692100'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 32478 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator" at "2026-06-08T11:18:52.2291258Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-06-05T11:02:43Z
+Date: 2026-06-08T11:18:52Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.15f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Users/Administrator/Desktop/Game-Engine/Program
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50512
+50630
 -licensingIpc
 LicenseClient-Administrator
 -job-worker-count
@@ -67,12 +67,12 @@ C:/Users/Administrator/Desktop/Game-Engine/Program
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [13416]  Target information:
+Player connection [16476]  Target information:
 
-Player connection [13416]  * "[IP] 192.168.0.94 [Port] 0 [Flags] 2 [Guid] 3738870884 [EditorId] 3738870884 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MSMA3UP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [16476]  * "[IP] 192.168.0.94 [Port] 0 [Flags] 2 [Guid] 1561337895 [EditorId] 1561337895 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MSMA3UP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [13416] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [13416] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16476] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16476] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 13
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -84,7 +84,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.95 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.68 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.15f1 (c1aa84e375f6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -100,29 +100,29 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001295 seconds.
-- Loaded All Assemblies, in  0.386 seconds
+Registered in 0.001103 seconds.
+- Loaded All Assemblies, in  0.401 seconds
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Administrator"
 [Licensing::IpcConnector] LicenseClient-Administrator channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-6000.3.15" at "2026-06-05T11:02:44.4749066Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 15120, path: "C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-6000.3.15" at "2026-06-08T11:18:53.069133Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 9452, path: "C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              e20bcccdc61343299d4a738bed1c8d2f
-  Correlation Id:          2ed35137fcefb8e99b7dbdcf33862a4b
-  External correlation Id: 2073749506971420081
+  Session Id:              b910bc5a3d59483d9447f1956b39f3f5
+  Correlation Id:          96010f41118b9d72c4fe35652fbda7a9
+  External correlation Id: 6940391772610940314
   Machine Id:              SvejmJGsl/EFmq0OAjofjZYOfss=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Administrator-6000.3.15" (connect: 0.01s, validation: 0.00s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-6000.3.15-notifications" at "2026-06-05T11:02:44.480014Z"
-[Licensing::Module] Licensing Background thread has ended after 0.83s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Administrator-6000.3.15" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-6000.3.15-notifications" at "2026-06-08T11:18:53.0742277Z"
+[Licensing::Module] Licensing Background thread has ended after 0.85s
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -130,35 +130,35 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.409 seconds
-Domain Reload Profiling: 795ms
-	BeginReloadAssembly (128ms)
+- Finished resetting the current domain, in  0.411 seconds
+Domain Reload Profiling: 812ms
+	BeginReloadAssembly (127ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
+	RebuildCommonClasses (36ms)
 	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (165ms)
-		LoadAssemblies (127ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (178ms)
+		LoadAssemblies (126ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (162ms)
-			TypeCache.Refresh (160ms)
-				TypeCache.ScanAssembly (144ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (173ms)
+				TypeCache.ScanAssembly (156ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (409ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (411ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (359ms)
+		SetupLoadedEditorAssemblies (360ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (50ms)
+			InitializePlatformSupportModulesInManaged (49ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (146ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (145ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -173,182 +173,152 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.767 seconds
-Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.794 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 1.18 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.26 ms, found 4 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.716 seconds
-Domain Reload Profiling: 1481ms
-	BeginReloadAssembly (190ms)
+- Finished resetting the current domain, in  0.750 seconds
+Domain Reload Profiling: 1543ms
+	BeginReloadAssembly (185ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (489ms)
-		LoadAssemblies (322ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (517ms)
+		LoadAssemblies (352ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (267ms)
-			TypeCache.Refresh (175ms)
-				TypeCache.ScanAssembly (159ms)
-			BuildScriptInfoCaches (80ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (716ms)
+		AnalyzeDomain (272ms)
+			TypeCache.Refresh (177ms)
+				TypeCache.ScanAssembly (160ms)
+			BuildScriptInfoCaches (82ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (751ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (515ms)
+		SetupLoadedEditorAssemblies (551ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (126ms)
-			ProcessInitializeOnLoadAttributes (322ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (135ms)
+			ProcessInitializeOnLoadAttributes (341ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.18 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6444 unused Assets / (4.2 MB). Loaded Objects now: 7240.
-Memory consumption went from 155.0 MB to 150.8 MB.
-Total: 7.653800 ms (FindLiveObjects: 0.904400 ms CreateObjectMapping: 0.291200 ms MarkObjects: 4.622300 ms  DeleteObjects: 1.835100 ms)
+Unloading 6445 unused Assets / (4.7 MB). Loaded Objects now: 7241.
+Memory consumption went from 154.9 MB to 150.2 MB.
+Total: 10.951100 ms (FindLiveObjects: 1.190900 ms CreateObjectMapping: 0.700800 ms MarkObjects: 6.216200 ms  DeleteObjects: 2.842000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7821.836170 seconds.
-  path: Assets/_Recovery/0.unity
-  artifactKey: Guid(f5ff517b361f19b47bb38c03cf4b0796) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Recovery/0.unity using Guid(f5ff517b361f19b47bb38c03cf4b0796) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '244c0f26d8c2fa888b5758651c0a3d45') in 0.0590439 seconds
+  Time since last request: 8973.553732 seconds.
+  path: Assets/Class 11th (Light)/Scenes/Class 11th (Light)/Lightmap-0_comp_dir.png
+  artifactKey: Guid(894c49de0a67f834c8d507e3b7461dc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 11th (Light)/Scenes/Class 11th (Light)/Lightmap-0_comp_dir.png using Guid(894c49de0a67f834c8d507e3b7461dc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '253a2704dc9825dca90aa179f4576eac') in 0.1237525 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/Class 10th (Sound System)/Scenes/Class 10th (Sound System).unity
-  artifactKey: Guid(105d8250a13c3b54e9cd2965d1d5bf72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Class 10th (Sound System)/Scenes/Class 10th (Sound System).unity using Guid(105d8250a13c3b54e9cd2965d1d5bf72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '34690b1c32f486ee98b8fd9dc9d31737') in 0.0082276 seconds
+  path: Assets/Class 11th (Light)/Scenes/Class 11th (Light)/LightingData.asset
+  artifactKey: Guid(4bbc5bb054a7d39408fb8c3a60131c7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 11th (Light)/Scenes/Class 11th (Light)/LightingData.asset using Guid(4bbc5bb054a7d39408fb8c3a60131c7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '07b55f46b5cd49c0236f78893b68850d') in 0.0155081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.568073 seconds.
+  path: Assets/Class 11th (Light)/Scenes/Class 11th (Light)/Lightmap-0_comp_light.exr
+  artifactKey: Guid(60947a3bc54b17246807a53487e7de50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 11th (Light)/Scenes/Class 11th (Light)/Lightmap-0_comp_light.exr using Guid(60947a3bc54b17246807a53487e7de50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93a6f0be030b25a281dd8e637dc695fd') in 0.0591087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.306764 seconds.
+  path: Assets/Class 11th (Light)/Scenes/Class 11th (Light)/Lightmap-0_comp_light.exr
+  artifactKey: Guid(60947a3bc54b17246807a53487e7de50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 11th (Light)/Scenes/Class 11th (Light)/Lightmap-0_comp_light.exr using Guid(60947a3bc54b17246807a53487e7de50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08666520222e0d07740cc4aec7527eeb') in 0.0096181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.605962 seconds.
+  path: Assets/Class 11th (Light)/Scenes/Class 11th (Light)/Lightmap-0_comp_dir.png
+  artifactKey: Guid(894c49de0a67f834c8d507e3b7461dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 11th (Light)/Scenes/Class 11th (Light)/Lightmap-0_comp_dir.png using Guid(894c49de0a67f834c8d507e3b7461dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c246295b31ed898e1a9a62d6386330f2') in 0.0109457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 707.362173 seconds.
+  path: Assets/Class 11th (Light)/Scenes/Class 11th (Light)/Lightmap-0_comp_dir.png
+  artifactKey: Guid(894c49de0a67f834c8d507e3b7461dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 11th (Light)/Scenes/Class 11th (Light)/Lightmap-0_comp_dir.png using Guid(894c49de0a67f834c8d507e3b7461dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '932e0b9f39d6d40c46943e365e852a84') in 0.0104658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.177137 seconds.
+  path: Assets/Class 11th (Light)/Scenes/Class 11th (Light)/Lightmap-0_comp_light.exr
+  artifactKey: Guid(60947a3bc54b17246807a53487e7de50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class 11th (Light)/Scenes/Class 11th (Light)/Lightmap-0_comp_light.exr using Guid(60947a3bc54b17246807a53487e7de50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d5e85ebb2e814bc6447f3d53db20e09') in 0.0123852 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.068026 seconds.
-  path: Assets/Class 10th (Sound System)/Cosmic Retro Recreation Room/Models/EnvironmentParts/CRR_Wall_1U_Double.fbx
-  artifactKey: Guid(9365ac84a4765e848ab76e678d939552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 10th (Sound System)/Cosmic Retro Recreation Room/Models/EnvironmentParts/CRR_Wall_1U_Double.fbx using Guid(9365ac84a4765e848ab76e678d939552) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e42e416575a565f0aa92d254c1a95b25') in 0.4715647 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 61.936630 seconds.
+  path: Assets/Class 11th (Light)/Scenes/Class 11th (Light)/Lightmap-0_comp_dir.png
+  artifactKey: Guid(894c49de0a67f834c8d507e3b7461dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 11th (Light)/Scenes/Class 11th (Light)/Lightmap-0_comp_dir.png using Guid(894c49de0a67f834c8d507e3b7461dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74617494ab9dc1148e90644002f547b2') in 0.0097185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.818532 seconds.
-  path: Assets/Class 10th (Sound System)/Cosmic Retro Recreation Room/Prefabs/Props/CRR_Dartboard.prefab
-  artifactKey: Guid(416d0c6c8b22d764eaeabb9882a499cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 10th (Sound System)/Cosmic Retro Recreation Room/Prefabs/Props/CRR_Dartboard.prefab using Guid(416d0c6c8b22d764eaeabb9882a499cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17f91d145a7249d00ea860db17a2a115') in 0.0134773 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+  Time since last request: 455.001580 seconds.
+  path: Assets/Class 11th (Light)/Scenes/Class 11th (Light)/Lightmap-0_comp_dir.png
+  artifactKey: Guid(894c49de0a67f834c8d507e3b7461dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 11th (Light)/Scenes/Class 11th (Light)/Lightmap-0_comp_dir.png using Guid(894c49de0a67f834c8d507e3b7461dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5463207599fb3c05a56c8801e2d0cbf') in 0.0098613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Class 10th (Sound System)/Cosmic Retro Recreation Room/Prefabs/Props/CRR_SideTable_01.prefab
-  artifactKey: Guid(9ac92fff37085b745b46afeab27d11ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 10th (Sound System)/Cosmic Retro Recreation Room/Prefabs/Props/CRR_SideTable_01.prefab using Guid(9ac92fff37085b745b46afeab27d11ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bba4aaf4dfb9089ef662e01fccfaddc') in 0.0115469 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+  Time since last request: 19.304021 seconds.
+  path: Assets/Class 11th (Light)/Scenes/Class 11th (Light)/Lightmap-0_comp_dir.png
+  artifactKey: Guid(894c49de0a67f834c8d507e3b7461dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 11th (Light)/Scenes/Class 11th (Light)/Lightmap-0_comp_dir.png using Guid(894c49de0a67f834c8d507e3b7461dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '322153db6481f966ec6d9f277d388120') in 0.0105203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Class 10th (Sound System)/Cosmic Retro Recreation Room/Prefabs/Props/CRR_PizzaBox_Open_Full_01.prefab
-  artifactKey: Guid(722bb9a11ef1bd34fb9d9c1f90e7849a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 10th (Sound System)/Cosmic Retro Recreation Room/Prefabs/Props/CRR_PizzaBox_Open_Full_01.prefab using Guid(722bb9a11ef1bd34fb9d9c1f90e7849a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5059086fc131182e73f1c1e8270e8999') in 0.0131316 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+  Time since last request: 9.786827 seconds.
+  path: Assets/Class 11th (Light)/Scenes/Class 11th (Light)/Lightmap-0_comp_dir.png
+  artifactKey: Guid(894c49de0a67f834c8d507e3b7461dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 11th (Light)/Scenes/Class 11th (Light)/Lightmap-0_comp_dir.png using Guid(894c49de0a67f834c8d507e3b7461dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2092dede5041a0195b1575e636df01dc') in 0.0111634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Class 10th (Sound System)/Cosmic Retro Recreation Room/Prefabs/Props/CRR_Poster_01.prefab
-  artifactKey: Guid(7e70a2ad27ead4f4ebf75328d0fc8978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 10th (Sound System)/Cosmic Retro Recreation Room/Prefabs/Props/CRR_Poster_01.prefab using Guid(7e70a2ad27ead4f4ebf75328d0fc8978) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4e4b180d82089fcf67d00e251fa3c63') in 0.0118905 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+  Time since last request: 7.502753 seconds.
+  path: Assets/Class 11th (Light)/Scenes/Class 11th (Light)/Lightmap-0_comp_dir.png
+  artifactKey: Guid(894c49de0a67f834c8d507e3b7461dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 11th (Light)/Scenes/Class 11th (Light)/Lightmap-0_comp_dir.png using Guid(894c49de0a67f834c8d507e3b7461dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0efe202f20b8a533a4129dc63fef927') in 0.0122081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.59 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (1.7 MB). Loaded Objects now: 7367.
-Memory consumption went from 169.5 MB to 167.8 MB.
-Total: 5.089800 ms (FindLiveObjects: 0.414200 ms CreateObjectMapping: 0.145100 ms MarkObjects: 4.259000 ms  DeleteObjects: 0.270900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.803 seconds
-Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.768 seconds
-Domain Reload Profiling: 1574ms
-	BeginReloadAssembly (249ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (23ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (59ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (476ms)
-		LoadAssemblies (373ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (214ms)
-			TypeCache.Refresh (15ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (184ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (769ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (574ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (142ms)
-			ProcessInitializeOnLoadAttributes (351ms)
-			ProcessInitializeOnLoadMethodAttributes (72ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 1.28 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6442 unused Assets / (4.2 MB). Loaded Objects now: 7291.
-Memory consumption went from 176.2 MB to 172.0 MB.
-Total: 10.143300 ms (FindLiveObjects: 1.065400 ms CreateObjectMapping: 0.599700 ms MarkObjects: 5.544600 ms  DeleteObjects: 2.932200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
